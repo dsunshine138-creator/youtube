@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
@@ -272,6 +273,7 @@ export default function Page() {
                     <span className="h-2 w-2 animate-bounce rounded-full bg-gray-400" />
                     <span className="h-2 w-2 animate-bounce rounded-full bg-gray-400 [animation-delay:150ms]" />
                     <span className="h-2 w-2 animate-bounce rounded-full bg-gray-400 [animation-delay:300ms]" />
+
                     <span className="ml-2 text-xs text-gray-400">
                       Gemini is thinking...
                     </span>
@@ -321,4 +323,5 @@ export default function Page() {
         </div>
       </main>
     </div>
-  )
+  );
+}
